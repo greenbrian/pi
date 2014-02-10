@@ -1,0 +1,6 @@
+---
+- name: example
+  hosts: local
+  tasks:
+  - name: test task
+    copy: content="This is test content pushed from Ansible Tower" dest=/home/pi/tower_wrote_this_file
